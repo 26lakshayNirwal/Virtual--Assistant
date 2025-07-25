@@ -4,7 +4,7 @@ import React, { createContext, useEffect, useState } from 'react'
 export const userDataContext = createContext();
 
 const UserContext = ({ children }) => {
-  const serverUrl = 'http://localhost:3000';
+  const serverUrl = 'https://virtual-assistant-backend-l99g.onrender.com';
   const [userData, setUserData] = useState(null);
   const [frontendImage, setFrontendImage] = useState(null);
   const [backendImage, setBackendImage] = useState(null);
