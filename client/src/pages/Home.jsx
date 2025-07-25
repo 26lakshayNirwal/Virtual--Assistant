@@ -236,7 +236,7 @@ const Home = () => {
 
   {/* Hamburger Icon */}
   <GiHamburgerMenu
-    className="text-white absolute top-5 right-5 w-6 h-6 cursor-pointer lg:hidden"
+    className="text-white absolute top-5 right-5 w-6 h-6 cursor-pointer"
     onClick={() => setHam(true)}
   />
 
